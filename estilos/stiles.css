@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Judson&family=Niconne&family=Oswald:wght@300&family=Over+the+Rainbow&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    position: static;
+    padding: 0%;
+    margin: 2px 5px 2px 5px;
+    background-color: rgb(239, 166, 137);
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+li {
+    margin: 5px 10px 5px 10px;
+    padding: auto;
+    display: inline-block;
+    justify-content: center;
+}
+
+a {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Over the Rainbow', cursive;
+    text-decoration: none;
+    
+
+}
+
+h1 {
+    background-color:rgb(233, 222, 211);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    border:10px hidden white solid ;
+    text-align: center;
+}
+
+.fondo {
+    width: 50%;
+    height: 50%;
+    margin-left: 300px;
+    margin-left: 300px;
+    padding: auto;
+    border-radius: 10px solid white;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ; 
+    grid-template-rows: 2fr 2fr 2fr ;
+    overflow: auto;
+  
+}
+
+.tutoriales {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ; 
+    grid-template-rows: 2fr 2fr 2fr ;
+    grid-row: auto;
+    overflow: auto;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+}
+
+iframe {
+    width: 500px;
+    height:500px;
+    border: 10px grey solid;
+
+
+}
+body {
+    background-color: beige;
+}
+ 
+h2 {
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(71, 70, 70);
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border: 10px grey solid ;
+}
+
+
+label {
+    background-color:rgb(233, 222, 211);
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    border:10px hidden white solid ;
+}
+
+
+
+footer {
+    background-color: rgb(239, 166, 137);
+    font-family: 'Niconne', cursive;
+    font-size: 20px;
+    color: white;
+}
